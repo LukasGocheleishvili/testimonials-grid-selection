@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Hanken+Grotesk:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&family=Hanken+Grotesk:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #ecf2f8;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: #f2f2f2;
+  font-family: "Barlow Semi Condensed";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 71px 24px 71px 24px;
+}
+
+.card-section {
+  background-color: var(--background);
+
+  /* CARDS */
+}
+.card {
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.first-card {
+  background: #733fc8;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  border-radius: 8px;
+  margin-top: 71px;
+}
+
+.second-card {
+  background: #48556a;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.third-card {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.fourth-card {
+  width: 100%;
+  background: #19202d;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.fifth-card {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+/* PROFILE CONTAINERS AND ICONS */
+
+.profile-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  background: url(Image.png);
+  border-radius: 50%;
+  margin-left: 32px;
+  margin-top: 26px;
+}
+
+.first-icon {
+  border: 2px solid #a775f1;
+}
+
+.fourth {
+  border: 2px solid #a775f1;
+}
+
+.profile-content {
+  margin-left: 17px;
+}
+
+/* PROFILE HEADERS AND PROFILE PARAGRAPHS */
+
+.profile-header {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.profile-paragraph {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 11px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-top: 4px;
+}
+
+.profile-header-third {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #48556a;
+}
+
+.profile-paragraph-third {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 11px;
+  color: #48556a;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-top: 4px;
+}
+
+.profile-header-fifth {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #48556a;
+}
+
+.profile-paragraph-fifth {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 11px;
+  color: #48556a;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-top: 4px;
+}
+
+/* CARD HEADERS AND PARAGRAPHS */
+
+.header {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 18px;
+}
+
+.paragraph {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #cfcfcf;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  /* padding-top: 40px; */
+  padding-left: 32px;
+  padding-right: 48px;
+}
+
+.header-second {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 18px;
+}
+
+.paragraph-second {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  padding-left: 32px;
+  padding-right: 32px;
+  /* padding-top: 16px; */
+  /* padding-bottom: 32px; */
+}
+
+.header-third {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #48556a;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 18px;
+}
+
+.paragraph-third {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #48556a;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  padding-left: 32px;
+  padding-right: 32px;
+  /* padding-top: 16px; */
+}
+
+.header-fourth {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ecf2f8;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+}
+
+.paragraph-fourth {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.header-fifth {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #48556a;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 18px;
+}
+
+.paragraph-fifth {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #48556a;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  padding-left: 32px;
+  padding-right: 32px;
+  /* padding-top: 16px; */
+}
+
+@media (min-width: 1440px) {
+  .card {
+    margin: 0;
+    padding-bottom: 0;
+  }
+
+  .main-responsive {
+    display: flex;
+  }
+
+  .first-and-second-card {
+    display: flex;
+  }
+
+  .first-card {
+    width: 540px;
+  }
+
+  .second-card {
+    margin-left: 30px;
+    width: 255px;
+  }
+
+  .third-and-fourth-card {
+    display: flex;
+  }
+
+  .fourth-card {
+    margin-left: 30px;
+    margin-top: 24px;
+    width: 540px;
+  }
+
+  .third-card {
+    margin-top: 24px;
+    width: 255px;
+  }
+
+  .header {
+    margin-top: 18px;
+  }
+
+  .fifth-card {
+    margin-left: 30px;
+    width: 255px;
+  }
+
+  .paragraph-fifth {
+    padding-bottom: 26px;
+    margin-top: 24px;
+  }
+  .paragraph {
+    margin-top: 16px;
+    padding-bottom: 32px;
+  }
+  .paragraph-second {
+    margin-top: 16px;
+    padding-bottom: 32px;
+  }
+  .paragraph-third {
+    margin-top: 24px;
+    padding-bottom: 26px;
+  }
+  .paragraph-fourth {
+    margin-top: 24px;
+  }
+}
